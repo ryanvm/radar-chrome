@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
             // Send a message to the New Tab page to update the radar image
             chrome.runtime.sendMessage({ action: 'updateRadar', site: selectedRadar });
 
-            // Notify the user
-            alert('Radar site saved!');
+            // Close the popup
+            window.close();
         });
     });
 });
