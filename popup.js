@@ -9,10 +9,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Save the selected radar site
+    // Save the selected radar site and notify the New Tab page
     saveButton.addEventListener('click', function () {
         const selectedRadar = radarSelect.value;
         chrome.storage.sync.set({ 'selectedRadar': selectedRadar }, function () {
+            // Send a message to the New Tab page to update the radar image
+            chrome.runtime.sendMessage({ action: 'updateRadar', site: selectedRadar });
+
+            // Notify the user
             alert('Radar site saved!');
         });
     });
