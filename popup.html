@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Radar Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 25em; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        select {
+            width: auto;
+            padding: 8px;
+            margin-top: 10px;
+        }
+        button {
+            width: auto;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Select Radar Site</h2>
+    <select id="radar-select">
+        <option value="RKSG">Camp Humphreys</option>
+        <option value="RODN">Kadena</option>
+        <option value="RKJK">Kunsan</option>
+        <option value="LPLA">Lajes Ab</option>
+        <option value="PAHG">AK, Anchorage</option>
+        <option value="PABC">AK, Bethel Faa</option>
+        <option value="PAPD">AK, Fairbanks</option>
+        <option value="PAKC">AK, King Salmon</option>
+        <option value="PAIH">AK, Middleton Island</option>
+        <option value="PAEC">AK, Nome</option>
+        <option value="PACG">AK, Sitka</option>
+        <option value="KBMX">AL, Birmingham</option>
+        <option value="KEOX">AL, Fort Rucker</option>
+        <option value="KHTX">AL, Huntsville</option>
+        <option value="KMXX">AL, Maxwell AFB</option>
+        <option value="KMOB">AL, Mobile</option>
+        <option value="KSRX">AR, Fort Smith</option>
+        <option value="KLZK">AR, Little Rock</option>
+        <option value="KFSX">AZ, Flagstaff</option>
+        <option value="KIWA">AZ, Phoenix</option>
+        <option value="TPHX">AZ, Phoenix</option>
+        <option value="KEMX">AZ, Tucson</option>
+        <option value="KYUX">AZ, Yuma</option>
+        <option value="KBBX">CA, Beale AFB</option>
+        <option value="KEYX">CA, Edwards</option>
+        <option value="KBHX">CA, Eureka</option>
+        <option value="KVTX">CA, Los Angeles</option>
+        <option value="KDAX">CA, Sacramento</option>
+        <option value="KNKX">CA, San Diego</option>
+        <option value="KMUX">CA, San Francisco</option>
+        <option value="KHNX">CA, San Joaquin Valley</option>
+        <option value="KSOX">CA, Santa Ana Mountains</option>
+        <option value="KVBX">CA, Vandenberg AFB</option>
+        <option value="TDEN">CO, Denver</option>
+        <option value="KFTG">CO, Denver Front Range Ap</option>
+        <option value="KGJX">CO, Grand Junction</option>
+        <option value="KPUX">CO, Pueblo</option>
+        <option value="KDOX">DE, Dover AFB</option>
+        <option value="KEVX">FL, Eglin AFB</option>
+        <option value="TFLL">FL, Ft Lauderdale</option>
+        <option value="KJAX">FL, Jacksonville</option>
+        <option value="KBYX">FL, Key West</option>
+        <option value="KMLB">FL, Melbourne</option>
+        <option value="KAMX">FL, Miami</option>
+        <option value="TMIA">FL, Miami</option>
+        <option value="TMCO">FL, Orlando International</option>
+        <option value="KTLH">FL, Tallahassee</option>
+        <option value="KTBW">FL, Tampa</option>
+        <option value="TTPA">FL, Tampa</option>
+        <option value="TPBI">FL, West Palm Beach</option>
+        <option value="KFFC">GA, Atlanta</option>
+        <option value="TATL">GA, Atlanta</option>
+        <option value="KVAX">GA, Moody AFB</option>
+        <option value="KJGX">GA, Robins AFB</option>
+        <option value="PGUA">GU, Andersen AFB Agana</option>
+        <option value="PHKM">HI, Kamuela</option>
+        <option value="PHMO">HI, Molokai</option>
+        <option value="PHKI">HI, South Kauai</option>
+        <option value="PHWA">HI, South Shore</option>
+        <option value="KDVN">IA, Davenport</option>
+        <option value="KDMX">IA, Des Moines</option>
+        <option value="KCBX">ID, Boise</option>
+        <option value="KSFX">ID, Pocatello</option>
+        <option value="KLOT">IL, Chicago</option>
+        <option value="TMDW">IL, Chicago Midway</option>
+        <option value="TORD">IL, Chicago Ohare</option>
+        <option value="KILX">IL, Lincoln</option>
+        <option value="KVWX">IN, Evansville</option>
+        <option value="KIWX">IN, Fort Wayne</option>
+        <option value="KIND">IN, Indianapolis</option>
+        <option value="TIDS">IN, Indianapolis</option>
+        <option value="KDDC">KS, Dodge City</option>
+        <option value="KGLD">KS, Goodland</option>
+        <option value="KTWX">KS, Topeka</option>
+        <option value="KICT">KS, Wichita</option>
+        <option value="TICH">KS, Wichita</option>
+        <option value="TCVG">KY, Covington</option>
+        <option value="KHPX">KY, Fort Campbell</option>
+        <option value="KJKL">KY, Jackson</option>
+        <option value="KLVX">KY, Louisville</option>
+        <option value="TSDF">KY, Louisville</option>
+        <option value="KPAH">KY, Paducah</option>
+        <option value="KPOE">LA, Fort Polk</option>
+        <option value="KHDC">LA, Hammond Municipal Airport</option>
+        <option value="KLCH">LA, Lake Charles</option>
+        <option value="KLIX">LA, New Orleans</option>
+        <option value="TMSY">LA, New Orleans</option>
+        <option value="KSHV">LA, Shreveport</option>
+        <option value="KBOX">MA, Boston</option>
+        <option value="TBOS">MA, Boston</option>
+        <option value="TADW">MD, Andrews AFB</option>
+        <option value="TBWI">MD, Baltimore Washington</option>
+        <option value="TDCA">MD, Washington National</option>
+        <option value="KCBW">ME, Houlton</option>
+        <option value="KGYX">ME, Portland</option>
+        <option value="KDTX">MI, Detroit</option>
+        <option value="TDTW">MI, Detroit</option>
+        <option value="KAPX">MI, Gaylord</option>
+        <option value="KGRR">MI, Grand Rapids</option>
+        <option value="KMQT">MI, Marquette</option>
+        <option value="KDLH">MN, Duluth</option>
+        <option value="KMPX">MN, Minneapolis</option>
+        <option value="TMSP">MN, Minneapolis</option>
+        <option value="KEAX">MO, Kansas City</option>
+        <option value="TMCI">MO, Kansas City</option>
+        <option value="KSGF">MO, Springfield</option>
+        <option value="KLSX">MO, St Louis</option>
+        <option value="TSTL">MO, St Louis</option>
+        <option value="KGWX">MS, Columbus AFB</option>
+        <option value="KDGX">MS, Jackson Brandon</option>
+        <option value="TMEM">MS, Memphis</option>
+        <option value="KBLX">MT, Billings</option>
+        <option value="KGGW">MT, Glasgow</option>
+        <option value="KTFX">MT, Great Falls</option>
+        <option value="KMSX">MT, Missoula</option>
+        <option value="TCLT">NC, Charlotte</option>
+        <option value="KMHX">NC, Morehead City</option>
+        <option value="TRDU">NC, Raleigh</option>
+        <option value="KRAX">NC, Raleigh Durham</option>
+        <option value="KLTX">NC, Wilmington</option>
+        <option value="KBIS">ND, Bismarck</option>
+        <option value="KMVX">ND, Grand Forks</option>
+        <option value="KMBX">ND, Minot AFB</option>
+        <option value="KUEX">NE, Hastings</option>
+        <option value="KLNX">NE, North Platte</option>
+        <option value="KOAX">NE, Omaha</option>
+        <option value="TEWR">NJ, Newark</option>
+        <option value="KDIX">NJ, Philadelphia</option>
+        <option value="TPHL">NJ, Philadelphia</option>
+        <option value="KABX">NM, Albuquerque</option>
+        <option value="KFDX">NM, Cannon AFB</option>
+        <option value="KEPZ">NM, El Paso</option>
+        <option value="KHDX">NM, Holloman AFB</option>
+        <option value="KLRX">NV, Elko</option>
+        <option value="KESX">NV, Las Vegas</option>
+        <option value="TLAS">NV, Las Vegas</option>
+        <option value="KRGX">NV, Reno</option>
+        <option value="KENX">NY, Albany</option>
+        <option value="KBGM">NY, Binghamton</option>
+        <option value="KBUF">NY, Buffalo</option>
+        <option value="KTYX">NY, Fort Drum</option>
+        <option value="KOKX">NY, New York City</option>
+        <option value="TJFK">NY, New York City JFK</option>
+        <option value="KILN">OH, Cincinnati</option>
+        <option value="KCLE">OH, Cleveland</option>
+        <option value="TLVE">OH, Cleveland</option>
+        <option value="TCMH">OH, Columbus</option>
+        <option value="TDAY">OH, Dayton</option>
+        <option value="KFDR">OK, Altus AFB</option>
+        <option value="KOUN">OK, Norman Nssl</option>
+        <option value="TOKC">OK, Norman Wfo</option>
+        <option value="KTLX">OK, Oklahoma City</option>
+        <option value="KCRI">OK, Roc Faa Redundant Rda 1</option>
+        <option value="KINX">OK, Tulsa</option>
+        <option value="TTUL">OK, Tulsa</option>
+        <option value="KVNX">OK, Vance AFB</option>
+        <option value="KMAX">OR, Medford</option>
+        <option value="KPDT">OR, Pendleton</option>
+        <option value="KRTX">OR, Portland</option>
+        <option value="KPBZ">PA, Pittsburgh</option>
+        <option value="TPIT">PA, Pittsburgh</option>
+        <option value="KCCX">PA, State College</option>
+        <option value="TJRV">PR, Jose Aponte De La Torre Airpor</option>
+        <option value="TJBQ">PR, Rafael Hernandez Airport</option>
+        <option value="TJUA">PR, San Juan</option>
+        <option value="TSJU">PR, San Juan</option>
+        <option value="KCLX">SC, Charleston</option>
+        <option value="KCAE">SC, Columbia</option>
+        <option value="KGSP">SC, Greer</option>
+        <option value="KABR">SD, Aberdeen</option>
+        <option value="KUDX">SD, Rapid City</option>
+        <option value="KFSD">SD, Sioux Falls</option>
+        <option value="KMRX">TN, Knoxville</option>
+        <option value="KNQA">TN, Memphis</option>
+        <option value="KOHX">TN, Nashville</option>
+        <option value="TBNA">TN, Nashville</option>
+        <option value="KAMA">TX, Amarillo</option>
+        <option value="KEWX">TX, Austin San Antonio</option>
+        <option value="KBRO">TX, Brownsville</option>
+        <option value="KCRP">TX, Corpus Christi</option>
+        <option value="KFWS">TX, Dallas</option>
+        <option value="TDFW">TX, Dallas Ft Worth</option>
+        <option value="TDAL">TX, Dallas Love Field</option>
+        <option value="KDYX">TX, Dyess AFB</option>
+        <option value="KGRK">TX, Fort Hood</option>
+        <option value="KHGX">TX, Houston</option>
+        <option value="THOU">TX, Houston Hobby</option>
+        <option value="TIAH">TX, Houston International</option>
+        <option value="KDFX">TX, Laughlin AFB</option>
+        <option value="KLBB">TX, Lubbock</option>
+        <option value="KMAF">TX, Midland Odessa</option>
+        <option value="KSJT">TX, San Angelo</option>
+        <option value="KICX">UT, Cedar City</option>
+        <option value="KMTX">UT, Salt Lake City</option>
+        <option value="TSLC">UT, Salt Lake City</option>
+        <option value="KAKQ">VA, Norfolk Rich</option>
+        <option value="KFCX">VA, Roanoke</option>
+        <option value="KLWX">VA, Sterling</option>
+        <option value="TIAD">VA, Washington Dulles</option>
+        <option value="KCXX">VT, Burlington</option>
+        <option value="KLGX">WA, Langley Hill Nw Washington</option>
+        <option value="KATX">WA, Seattle</option>
+        <option value="KOTX">WA, Spokane</option>
+        <option value="KGRB">WI, Green Bay</option>
+        <option value="KARX">WI, La Crosse</option>
+        <option value="KMKX">WI, Milwaukee</option>
+        <option value="TMKE">WI, Milwaukee</option>
+        <option value="KRLX">WV, Charleston</option>
+        <option value="KCYS">WY, Cheyenne</option>
+        <option value="KRIW">WY, Riverton</option>
+    </select>
+    <button id="save-button">Save</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

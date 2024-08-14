@@ -1,0 +1,212 @@
+ICAO,NAME                          ,ST
+----,------------------------------,--
+KABR,ABERDEEN                      ,SD
+KABX,ALBUQUERQUE                   ,NM
+KAKQ,NORFOLK RICH                  ,VA
+KAMA,AMARILLO                      ,TX
+KAMX,MIAMI                         ,FL
+KAPX,GAYLORD                       ,MI
+KARX,LA CROSSE                     ,WI
+KATX,SEATTLE                       ,WA
+KBBX,BEALE AFB                     ,CA
+KBGM,BINGHAMTON                    ,NY
+KBHX,EUREKA                        ,CA
+KBIS,BISMARCK                      ,ND
+KBLX,BILLINGS                      ,MT
+KBMX,BIRMINGHAM                    ,AL
+KBOX,BOSTON                        ,MA
+KBRO,BROWNSVILLE                   ,TX
+KBUF,BUFFALO                       ,NY
+KBYX,KEY WEST                      ,FL
+KCAE,COLUMBIA                      ,SC
+KCBW,HOULTON                       ,ME
+KCBX,BOISE                         ,ID
+KCCX,STATE COLLEGE                 ,PA
+KCLE,CLEVELAND                     ,OH
+KCLX,CHARLESTON                    ,SC
+KCRI,ROC FAA REDUNDANT RDA 1       ,OK
+KCRP,CORPUS CHRISTI                ,TX
+KCXX,BURLINGTON                    ,VT
+KCYS,CHEYENNE                      ,WY
+KDAX,SACRAMENTO                    ,CA
+KDDC,DODGE CITY                    ,KS
+KDFX,LAUGHLIN AFB                  ,TX
+KDGX,JACKSON BRANDON               ,MS
+KDIX,PHILADELPHIA                  ,NJ
+KDLH,DULUTH                        ,MN
+KDMX,DES MOINES                    ,IA
+KDOX,DOVER AFB                     ,DE
+KDTX,DETROIT                       ,MI
+KDVN,DAVENPORT                     ,IA
+KDYX,DYESS AFB                     ,TX
+KEAX,KANSAS CITY                   ,MO
+KEMX,TUCSON                        ,AZ
+KENX,ALBANY                        ,NY
+KEOX,FORT RUCKER                   ,AL
+KEPZ,EL PASO                       ,NM
+KESX,LAS VEGAS                     ,NV
+KEVX,EGLIN AFB                     ,FL
+KEWX,AUSTIN SAN ANTONIO            ,TX
+KEYX,EDWARDS                       ,CA
+KFCX,ROANOKE                       ,VA
+KFDR,ALTUS AFB                     ,OK
+KFDX,CANNON AFB                    ,NM
+KFFC,ATLANTA                       ,GA
+KFSD,SIOUX FALLS                   ,SD
+KFSX,FLAGSTAFF                     ,AZ
+KFTG,DENVER FRONT RANGE AP         ,CO
+KFWS,DALLAS                        ,TX
+KGGW,GLASGOW                       ,MT
+KGJX,GRAND JUNCTION                ,CO
+KGLD,GOODLAND                      ,KS
+KGRB,GREEN BAY                     ,WI
+KGRK,FORT HOOD                     ,TX
+KGRR,GRAND RAPIDS                  ,MI
+KGSP,GREER                         ,SC
+KGWX,COLUMBUS AFB                  ,MS
+KGYX,PORTLAND                      ,ME
+KHDC,HAMMOND MUNICIPAL AIRPORT     ,LA
+KHDX,HOLLOMAN AFB                  ,NM
+KHGX,HOUSTON                       ,TX
+KHNX,SAN JOAQUIN VALLEY            ,CA
+KHPX,FORT CAMPBELL                 ,KY
+KHTX,HUNTSVILLE                    ,AL
+KICT,WICHITA                       ,KS
+KICX,CEDAR CITY                    ,UT
+KILN,CINCINNATI                    ,OH
+KILX,LINCOLN                       ,IL
+KIND,INDIANAPOLIS                  ,IN
+KINX,TULSA                         ,OK
+KIWA,PHOENIX                       ,AZ
+KIWX,FORT WAYNE                    ,IN
+KJAX,JACKSONVILLE                  ,FL
+KJGX,ROBINS AFB                    ,GA
+KJKL,JACKSON                       ,KY
+KLBB,LUBBOCK                       ,TX
+KLCH,LAKE CHARLES                  ,LA
+KLGX,LANGLEY HILL NW WASHINGTON    ,WA
+KLIX,NEW ORLEANS                   ,LA
+KLNX,NORTH PLATTE                  ,NE
+KLOT,CHICAGO                       ,IL
+KLRX,ELKO                          ,NV
+KLSX,ST LOUIS                      ,MO
+KLTX,WILMINGTON                    ,NC
+KLVX,LOUISVILLE                    ,KY
+KLWX,STERLING                      ,VA
+KLZK,LITTLE ROCK                   ,AR
+KMAF,MIDLAND ODESSA                ,TX
+KMAX,MEDFORD                       ,OR
+KMBX,MINOT AFB                     ,ND
+KMHX,MOREHEAD CITY                 ,NC
+KMKX,MILWAUKEE                     ,WI
+KMLB,MELBOURNE                     ,FL
+KMOB,MOBILE                        ,AL
+KMPX,MINNEAPOLIS                   ,MN
+KMQT,MARQUETTE                     ,MI
+KMRX,KNOXVILLE                     ,TN
+KMSX,MISSOULA                      ,MT
+KMTX,SALT LAKE CITY                ,UT
+KMUX,SAN FRANCISCO                 ,CA
+KMVX,GRAND FORKS                   ,ND
+KMXX,MAXWELL AFB                   ,AL
+KNKX,SAN DIEGO                     ,CA
+KNQA,MEMPHIS                       ,TN
+KOAX,OMAHA                         ,NE
+KOHX,NASHVILLE                     ,TN
+KOKX,NEW YORK CITY                 ,NY
+KOTX,SPOKANE                       ,WA
+KOUN,NORMAN NSSL                   ,OK
+KPAH,PADUCAH                       ,KY
+KPBZ,PITTSBURGH                    ,PA
+KPDT,PENDLETON                     ,OR
+KPOE,FORT POLK                     ,LA
+KPUX,PUEBLO                        ,CO
+KRAX,RALEIGH DURHAM                ,NC
+KRGX,RENO                          ,NV
+KRIW,RIVERTON                      ,WY
+KRLX,CHARLESTON                    ,WV
+KRTX,PORTLAND                      ,OR
+KSFX,POCATELLO                     ,ID
+KSGF,SPRINGFIELD                   ,MO
+KSHV,SHREVEPORT                    ,LA
+KSJT,SAN ANGELO                    ,TX
+KSOX,SANTA ANA MOUNTAINS           ,CA
+KSRX,FORT SMITH                    ,AR
+KTBW,TAMPA                         ,FL
+KTFX,GREAT FALLS                   ,MT
+KTLH,TALLAHASSEE                   ,FL
+KTLX,OKLAHOMA CITY                 ,OK
+KTWX,TOPEKA                        ,KS
+KTYX,FORT DRUM                     ,NY
+KUDX,RAPID CITY                    ,SD
+KUEX,HASTINGS                      ,NE
+KVAX,MOODY AFB                     ,GA
+KVBX,VANDENBERG AFB                ,CA
+KVNX,VANCE AFB                     ,OK
+KVTX,LOS ANGELES                   ,CA
+KVWX,EVANSVILLE                    ,IN
+KYUX,YUMA                          ,AZ
+LPLA,LAJES AB                      ,
+PABC,BETHEL FAA                    ,AK
+PACG,SITKA                         ,AK
+PAEC,NOME                          ,AK
+PAHG,ANCHORAGE                     ,AK
+PAIH,MIDDLETON ISLAND              ,AK
+PAKC,KING SALMON                   ,AK
+PAPD,FAIRBANKS                     ,AK
+PGUA,ANDERSEN AFB AGANA            ,GU
+PHKI,SOUTH KAUAI                   ,HI
+PHKM,KAMUELA                       ,HI
+PHMO,MOLOKAI                       ,HI
+PHWA,SOUTH SHORE                   ,HI
+RKJK,KUNSAN                        ,
+RKSG,CAMP HUMPHREYS                ,
+RODN,KADENA                        ,
+TADW,ANDREWS AFB                   ,MD
+TATL,ATLANTA                       ,GA
+TBNA,NASHVILLE                     ,TN
+TBOS,BOSTON                        ,MA
+TBWI,BALTIMORE WASHINGTON          ,MD
+TCLT,CHARLOTTE                     ,NC
+TCMH,COLUMBUS                      ,OH
+TCVG,COVINGTON                     ,KY
+TDAL,DALLAS LOVE FIELD             ,TX
+TDAY,DAYTON                        ,OH
+TDCA,WASHINGTON NATIONAL           ,MD
+TDEN,DENVER                        ,CO
+TDFW,DALLAS FT WORTH               ,TX
+TDTW,DETROIT                       ,MI
+TEWR,NEWARK                        ,NJ
+TFLL,FT LAUDERDALE                 ,FL
+THOU,HOUSTON HOBBY                 ,TX
+TIAD,WASHINGTON DULLES             ,VA
+TIAH,HOUSTON INTERNATIONAL         ,TX
+TICH,WICHITA                       ,KS
+TIDS,INDIANAPOLIS                  ,IN
+TJBQ,RAFAEL HERNANDEZ AIRPORT      ,PR
+TJFK,NEW YORK CITY JFK             ,NY
+TJRV,JOSE APONTE DE LA TORRE AIRPOR,PR
+TJUA,SAN JUAN                      ,PR
+TLAS,LAS VEGAS                     ,NV
+TLVE,CLEVELAND                     ,OH
+TMCI,KANSAS CITY                   ,MO
+TMCO,ORLANDO INTERNATIONAL         ,FL
+TMDW,CHICAGO MIDWAY                ,IL
+TMEM,MEMPHIS                       ,MS
+TMIA,MIAMI                         ,FL
+TMKE,MILWAUKEE                     ,WI
+TMSP,MINNEAPOLIS                   ,MN
+TMSY,NEW ORLEANS                   ,LA
+TOKC,NORMAN WFO                    ,OK
+TORD,CHICAGO OHARE                 ,IL
+TPBI,WEST PALM BEACH               ,FL
+TPHL,PHILADELPHIA                  ,NJ
+TPHX,PHOENIX                       ,AZ
+TPIT,PITTSBURGH                    ,PA
+TRDU,RALEIGH                       ,NC
+TSDF,LOUISVILLE                    ,KY
+TSJU,SAN JUAN                      ,PR
+TSLC,SALT LAKE CITY                ,UT
+TSTL,ST LOUIS                      ,MO
+TTPA,TAMPA                         ,FL
+TTUL,TULSA                         ,OK
