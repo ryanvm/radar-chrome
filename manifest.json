@@ -4,7 +4,6 @@
   "version": "1.0",
   "description": "Displays the current local NEXRAD weather radar on the new tab page (US only).",
   "permissions": [
-    "activeTab",
     "storage"
   ],
   "chrome_url_overrides": {
